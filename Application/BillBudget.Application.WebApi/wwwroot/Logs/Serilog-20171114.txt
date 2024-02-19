@@ -1,0 +1,7 @@
+2017-11-14 10:19:26.141 +06:00 [Fatal] Hosting startup assembly exception
+System.InvalidOperationException: Startup assembly Microsoft.AspNetCore.ApplicationInsights.HostingStartup failed to execute. See the inner exception for more details. ---> System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AspNetCore.ApplicationInsights.HostingStartup, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, IntPtr ptrLoadContextBinder)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.AspNetCore.Hosting.WebHostBuilder.BuildCommonServices(AggregateException& hostingStartupErrors)
+   --- End of inner exception stack trace ---

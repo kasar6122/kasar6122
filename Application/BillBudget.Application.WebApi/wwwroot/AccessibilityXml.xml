@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Accessibility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Url Roles="User">GET:api/accountHeads</Url>
+
+  <Url Roles="Accounts">POST:api/vouchers</Url>
+  <Url Roles="Accounts">GET:api/vouchers</Url>
+
+  <Url Roles="User">POST:api/financialTransactions</Url>
+  <Url Roles="User">GET:api/financialTransactions</Url>
+
+  <Url Roles="User">POST:api/advances</Url>
+  <Url Roles="User">PUT:api/advances</Url>
+  <Url Roles="User">DELETE:api/advances</Url>
+  <Url Roles="User">GET:api/advances</Url>
+  <Url Roles="Accounts">GetByApplicationApprovalStatus</Url>
+
+  <Url Roles="User">POST:api/approvals</Url>
+  <Url Roles="User">PUT:api/approvals</Url>
+  <Url Roles="User">DELETE:api/approvals</Url>
+  <Url Roles="User">GET:api/approvals</Url>
+
+  <Url Roles="User">POST:api/bills</Url>
+  <Url Roles="User">PUT:api/bills</Url>
+  <Url Roles="User">GET:api/bills</Url>
+
+  <Url Roles="User">POST:api/billSubs</Url>
+  <Url Roles="User">DELETE:api/billSubs</Url>
+  <Url Roles="User">PUT:api/billSubs</Url>
+
+  <Url Roles="User">POST:api/budgets</Url>
+  <Url Roles="User">PUT:api/budgets</Url>
+  <Url Roles="User">GET:api/budgets</Url>
+
+  <Url Roles="User">POST:api/BudgetSubs</Url>
+  <Url Roles="User">PUT:api/BudgetSubs</Url>
+  <Url Roles="User">DELETE:api/BudgetSubs</Url>
+
+  <Url Roles="User">GET:api/Calculator</Url>
+
+  <Url Roles="User">POST:api/costCenters</Url>
+  <Url Roles="User">PUT:api/costCenters</Url>
+  <Url Roles="User">DELETE:api/costCenters</Url>
+  <Url Roles="User">GET:api/costCenters</Url>
+
+  <Url Roles="User">GET:api/employees</Url>
+  <Url Roles="User">GET:api/employees/self</Url>
+  <Url Roles="User">GET:api/employees/name</Url>
+
+  <Url Roles="User">GET:api/financialYears</Url>
+
+  <Url Roles="User">POST:api/jobs</Url>
+  <Url Roles="User">PUT:api/jobs</Url>
+  <Url Roles="User">DELETE:api/jobs</Url>
+  <Url Roles="User">GET:api/jobs</Url>
+  <Url Roles="Admin">GetSummarisedJobs</Url>
+
+  <Url Roles="User">GET:api/unadjustedJobs</Url>
+
+
+  <Url Roles="User">GET:api/measurementUnits</Url>
+  <Url Roles="User">POST:api/measurementUnits</Url>
+  <Url Roles="User">DELETE:api/measurementUnits</Url>
+
+  <Url Roles="User">GET:api/performaceTypes</Url>
+  <Url Roles="User">GET:api/projects</Url>
+  <Url Roles="User">GET:api/vendors</Url>
+  <Url Roles="User">POST:api/workOrders</Url>
+  <Url Roles="User">PUT:api/workOrders</Url>
+  <Url Roles="User">DELETE:api/workOrders</Url>
+  <Url Roles="User">GET:api/workOrders</Url>
+
+  <Url Roles="Accounts">POST:api/jobDone</Url>
+  <Url Roles="Accounts">PUT:api/jobDone</Url>
+
+  <Url Roles="User">GET:api/jobSummaries</Url>
+
+</Accessibility>

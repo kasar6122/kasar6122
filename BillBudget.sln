@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{EC101595-D949-40C5-A9B4-87692FE77B57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillBudget.Application.WebApi", "Application\BillBudget.Application.WebApi\BillBudget.Application.WebApi.csproj", "{D042FEA7-BA15-4FDB-A701-0D5BA46E2AAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{651A21DC-A91D-4BD1-AB01-E33BDD9D045D}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D042FEA7-BA15-4FDB-A701-0D5BA46E2AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D042FEA7-BA15-4FDB-A701-0D5BA46E2AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D042FEA7-BA15-4FDB-A701-0D5BA46E2AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D042FEA7-BA15-4FDB-A701-0D5BA46E2AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D042FEA7-BA15-4FDB-A701-0D5BA46E2AAF} = {EC101595-D949-40C5-A9B4-87692FE77B57}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1BA454B-10E9-4FAB-9698-C674839F5B43}
+	EndGlobalSection
+EndGlobal
